@@ -1,0 +1,9 @@
+# Copy this file to config/agent.yml for local development.
+# Do not commit config/agent.yml if it contains real keys.
+
+# AMap MCP Streamable HTTP endpoint.
+# Example: https://mcp.amap.com/mcp?key=your-amap-key
+amap_mcp_url: ""
+
+# Optional: AMap REST API key used by the fallback layer when MCP fails.
+amap_api_key: ""
